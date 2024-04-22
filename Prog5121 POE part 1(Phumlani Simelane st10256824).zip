@@ -1,0 +1,40 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
+ */
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
+
+
+/**
+ *
+ * @author RC_Student_lab
+ */
+public class UnitTest {
+    
+public static void main(String[] args){
+    
+    LoginTest test = new LoginTest();
+        test.test_checkUserName_correctly_formatted();
+        test.test_checkUserName_incorrectly_formatted();
+        test.test_checkPasswordComplexity_meets_requirements();
+        test.test_checkPasswordComplexity_does_not_meet_requirements();
+        test.test_loginUser_successful();
+        test.test_loginUser_failed();
+        test.test_returnLoginStatus_successful_login();
+        test.test_returnLoginStatus_failed_login();
+   
+}
+
+ 
+            
+            
+            
+        }
+
+        
+    
+    
+    
+
